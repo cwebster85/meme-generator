@@ -1,0 +1,84 @@
+.input--fields {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+.input--field {
+    display: flex;
+    text-align: left;
+    margin: 5px;
+    padding: 8px 8px;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    color: #0D0D0D;
+    font-family: Karla;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.submit-btn-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -15px 30px 20px 30px;
+}
+
+.submit-btn {
+    width: 70%;
+    background: linear-gradient(135deg, #711F8D 0%, #A818DA 100%);
+    border-radius: 5px;
+    border: none;
+    padding: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+.meme {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -0.9375em 1.875em 1.25em 1.875em;
+}
+
+.meme > img {
+    width: 70%;
+}
+
+.meme--text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.bottom {
+    bottom: 5%;
+}
+
+.top {
+    top: 5%;
+}
